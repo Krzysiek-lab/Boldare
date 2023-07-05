@@ -3,6 +3,7 @@ package org.example.Service;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 
@@ -43,7 +44,7 @@ public class MoneyService implements Money {
     }
 
 
-    private List<BigDecimal> subtractOneListFromAnother(List<BigDecimal> firstList, List<BigDecimal> secondList) {
+    private List<BigDecimal> subtractOneListFromAnother(Collection<BigDecimal> firstList, Collection<BigDecimal> secondList) {
         List<BigDecimal> endList = new ArrayList<>(firstList);
         secondList.forEach(endList::remove);
         return endList;

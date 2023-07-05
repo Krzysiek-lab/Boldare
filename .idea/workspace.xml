@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce74927-e29b-453a-838c-487bbf81c84d" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/CashRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/Denomination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/MoneyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/PLN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/Calculate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/CashRegister.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/Denomination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/Money.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/MoneyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/PLN.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/org/example/Service/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service/MoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/MoneyService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +74,21 @@
       <option name="presentableId" value="Default" />
       <updated>1688568681441</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1688595279629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688595279629</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1688595308360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688595308360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
