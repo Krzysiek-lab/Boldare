@@ -15,6 +15,7 @@ public class Calculate {
             MoneyService moneyService = new MoneyService(register);
 
             while (!change.equals("c")) {
+                change = change.replace(" zł", "");
                 moneyService.calculateChange(new BigDecimal(change));
                 change = scanner.nextLine();
             }

@@ -19,8 +19,14 @@ public class MoneyService implements Money {
     public void calculateChange(BigDecimal change) {
         System.out.println("   Dla reszty " + change + " zł" + "\n");
         List<BigDecimal> changeEndValue = new ArrayList<>();
-        BigDecimal value = new BigDecimal(String.valueOf(change)
-                .split("\\.")[0] + String.valueOf(change).split("\\.")[1]);
+        String[] val = String.valueOf(change).split("\\.");
+        BigDecimal value;
+        if (String.valueOf(change).contains(".")) {
+            value = new BigDecimal(val[0] + val[1]);
+        } else {
+            value = change;
+        }
+
 
         for (var e : availableChangeList) {
             if (value.equals(new BigDecimal("0"))) {
